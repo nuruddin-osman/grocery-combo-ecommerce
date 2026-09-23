@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-inter: var(--font-inter);
+  --font-poppins: var(--font-poppins);
+}
+
+:root {
+  --brand-dark-blue: #19183B;
+  --brand-light-cream: #F2EAD3;
+  --brand-cream: #F9F5F0;
+  --brand-orange: #F4991A;
+  --brand-white: #FFFFFF;
+}
+
+
+@theme {
+  --color-dark-blue: var(--brand--dark-blue);
+  --color-light-cream: var(--brand-light-cream);
+  --color-cream: var(--brand-cream);
+  --color-orange: var(--brand-orange);
+  --color-white: var(--brand-white);
+}
